@@ -2,7 +2,7 @@
 
 Python is one of the most popular programming languages in the world. One reason for its popularity is its **simplicity and flexibility with data types**. Unlike some languages where you must explicitly declare types, Python infers the type of a variable at runtime.
 
-In this blog, we'll walk through the most common built-in data types in Python: **int, float, bool, str, list, tuple, dict, and set**. Each comes with powerful features, and as a developer (like myself, Vinod Kayartaya), you'll frequently use them in your applications.
+In this blog, we'll walk through the most common built-in data types in Python: **int, float, bool, str, list, tuple, dict, and set**. Each comes with powerful features, and as a developer, you'll frequently use them in your applications.
 
 ## 1. Boolean (`bool`)
 

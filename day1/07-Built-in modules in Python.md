@@ -2,7 +2,7 @@
 
 One of the biggest strengths of Python is its **standard library** – a collection of built-in modules that provide ready-made functionality. Instead of writing everything from scratch, Python developers can **reuse these built-in tools**.
 
-In this article, I (Vinod Kayartaya) will guide you through the **most commonly used built-in modules in Python**, along with examples.
+This article will guide you through the **most commonly used built-in modules in Python**, along with examples.
 
 ## 1. `math` – Mathematical Functions
 

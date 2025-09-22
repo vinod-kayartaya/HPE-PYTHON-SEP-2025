@@ -150,7 +150,3 @@ print(api_response["user"]["location"]["city"])  # Bengaluru
 ## Conclusion
 
 Nested dictionaries allow Python developers to represent **complex hierarchical data** in a clean and structured way. They are widely used when handling **JSON, config files, or structured datasets**.
-
-As I, Vinod Kayartaya, often tell my students:
-
-> Mastering nested dictionaries is essential if you want to deal effectively with APIs, databases, and real-world structured data.

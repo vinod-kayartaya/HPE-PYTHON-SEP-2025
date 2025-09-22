@@ -2,8 +2,6 @@
 
 When building Python programs, your code can quickly become large and complex. To keep things **organized, reusable, and maintainable**, Python provides a powerful feature: **Modules**.
 
-In this article, I (Vinod Kayartaya) will walk you through everything you need to know about modules in Python.
-
 ## What is a Module?
 
 A **module** is simply a Python file (`.py`) that contains code such as functions, variables, and classes.
