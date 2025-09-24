@@ -1,0 +1,4 @@
+[✅] Learn python basics
+[ ] Wash the car
+[ ] Get milk
+[ ] Charge phone
