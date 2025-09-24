@@ -1,4 +1,5 @@
 from ex17_kwargs_demo import line
+import random
 
 class Employee:
     # class/shared variable
@@ -34,6 +35,16 @@ class Employee:
             self.salary == other.salary
 
 
+class Salesman:
+    def __init__(self, **kwargs):
+        self.empid = random.randint(1000, 2000)
+        self.name = kwargs.get('name')
+        self.salary = kwargs.get('salary', 25_000)
+        self.department = kwargs.get('department', 'ACCOUNTING')
+        self.email = kwargs.get('email')
+
+
+
 if __name__ == '__main__':
     e1 = Employee(name='Rajesh', department='ADMIN')
     e2 = Employee(name='Anil', salary=32000)
@@ -50,5 +61,10 @@ if __name__ == '__main__':
     # print(e1)   # print(e1.__str__())
     # print(e2)
 
-    # e1.print()
-    # e2.print()
+    e1.print()
+    e2.print()
+    Employee.print(e1)
+
+    # this can be done too!!!
+    s1 = Salesman(name='Allen', department='SALES', salary=22000)
+    Employee.print(s1)
