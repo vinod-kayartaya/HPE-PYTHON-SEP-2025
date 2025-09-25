@@ -1,4 +1,6 @@
 [✅] Learn python basics
 [ ] Wash the car
-[ ] Get milk
-[ ] Charge phone
+[✅] Get milk
+[✅] Charge phone
+[ ] Wash the car
+[ ] Delete unwanted photos from phone
