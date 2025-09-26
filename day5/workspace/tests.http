@@ -1,0 +1,100 @@
+@hostname=127.0.0.1:8000
+
+###
+
+GET /
+Host: {{hostname}}
+
+###
+
+GET /api/customers
+Host: {{hostname}}
+Accept: application/json,application/xml
+
+###
+
+GET /api/customers
+Host: {{hostname}}
+Accept: application/xml
+
+###
+
+GET /?t=spider+man&apikey=30d67521
+Host: omdbapi.com
+Accept: application/xml
+
+###
+
+GET /api/customers/4
+Host: {{hostname}}
+Accept: application/json,application/xml
+
+###
+
+
+GET /api/customers/33
+Host: {{hostname}}
+Accept: application/json,application/xml
+###
+
+POST /api/customers
+Host: {{hostname}}
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Jane Doe",
+    "email": "janedoe@xmpl.com",
+    "phone": "9731420022",
+    "city": "Dallas"
+}
+
+###
+
+POST /api/customers
+Host: {{hostname}}
+Content-Type: application/json
+Accept: application/json
+
+{
+    "x": 100,
+    "y": 200
+}
+
+###
+http://{{hostname}}/api/customers/2
+
+
+###
+
+POST /api/customers
+Host: {{hostname}}
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": 100,
+    "email": false,
+    "phone": 12.34
+}
+
+
+###
+
+DELETE http://{{hostname}}/api/customers/1
+
+
+
+###
+
+PUT /api/customers/2
+Host: {{hostname}}
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Vinod Kumar Kayartaya",
+    "email": "vinod@cyblore.com",
+    "phone": "9731424784",
+    "city": "Bengaluru"
+}
