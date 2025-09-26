@@ -11,22 +11,22 @@ def odd_numbers(max):
         yield i
 
 
-def main():
+def main_1():
     for n in odd_numbers(20):
         print(n)
 
-def main_1():
+def main():
     print(f'{type(fruits) = }')
     f1 = fruits()
     print(f'{f1 = }')
 
-    # print(next(f1))
-    # print(next(f1))
-    # print(next(f1))
-    # print(next(f1))
+    print(next(f1))
+    print(next(f1))
+    print(next(f1))
+    print(next(f1))
 
-    for f in f1:
-        print(f)
+    # for f in f1:
+    #     print(f)
 
 if __name__ == '__main__':
     main()
